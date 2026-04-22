@@ -7,76 +7,97 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <a href="#" class="logo">Varadha</a>
-        <nav class="active">
-            <a href="#">Home</a>
-            <a href="#">Skill</a>
-            <a href="#">Education</a>
-            <a href="#">Experience</a>
-            <a href="#">contact</a>
-        </nav>
+     <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">Varadha</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+    <header id="home">
+      <img src="image/pic.jpeg" alt="Varadha" class="profile-pic">
+      <h1>Varadha</h1>
+      <p>UG student</p>
+      <a href="#contact" class="btn">Contact Me</a>
     </header>
-    <section class="profile">
-        <div class="profile-pic">
-            <img src="image/pic.jpeg" alt="">
-        </div>
-        <div class="home-content">
-           <div class="about">
-            <h1>Hi I'm <span>Varadha</span></h1>
-            
-             <p class="para"> I'm a first-year BCA student at Nehru College. I'm passionate about technology, problem-solving, and building creative digital solutions.<br> Currently, I'm learning programming basics, C, cyber security, and exploring web development.<br> My goal is to develop strong skills in software development and create real, practical projects that reflect my learning.<br> I’m also interested in improving my coding abilities through projects, internships, and continuous learning.</p>
-            
-           
-        </div>
-    </section>
-    <section  class="point">
-    <h2>My Skills</h2><br>
-    <div>
-         <li><h3  class="point">C LANGUAGE</h3></li>
-         <ul  class="unorder" value="disc">
-            <li>Good understanding of basics,data types,and syntax.</li>
-            <li>Can write programs using loops,functions,and arrays</li>
-            <li>Strong logical problem-solving skills</li>
-         </ul><br>
-         <li><h3  class="point">HTML</h3></li>
-         <ul class="unorder" value="disc">
-            <li>Knows how to structure webpages using semantic tags.</li>
-            <li>Can add headings,lists,links,images and forms.</li>
-            <li>Able to create a full portfolio website using HTML.</li>
-         </ul><br>
-         <li><h3  class="point">CSS</h3></li>
-         <ul class="unorder" value="disc">
-            <li>Can style webpages with colors,fonts and spacing.</li>
-            <li>Knows selectors,classes and IDs.</li>
-            <li>Can make simple and aesthetic responsive designs.</li>
-         </ul>
-    </div>
-    </section>
-   <div class="font">
-    <div class="bca">
-        <h2>Education</h2><br>
-        <li><h3>Bachleor of computer application</h3></li>
-        <ul class="unorder" value="disc">
-            <li>PK Das liberal college of arts and science</li>
-            <li>cyber security</li>
-        </ul><br>
-    </div>
-    <div class="high">
-        <li><h3>Higher secondary</h3></li>
-        <ul class="unorder" value="disc">
-            <li>S.N Trust H.S.S </li>
-        </ul><br>
-    </div>
-    <div class="intern">
-        <h2>Experience</h2>
-        <li><h3>1st internships</h3></li>
-        <ul class="unorder" value="disc">
-            <li>Maitexa institute,Calicut</li>
-        </ul><br>
-    </div>
-   </div>
 
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+       I'm a first-year BCA student at Nehru College. I'm passionate about technology, problem-solving, and building creative digital solutions.<br> Currently, I'm learning programming basics, C, cyber security, and exploring web development.<br> My goal is to develop strong skills in software development and create real, practical projects that reflect my learning.<br> I’m also interested in improving my coding abilities through projects, internships, and continuous learning.
+      </p>
+    </section>
 
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skills">
+        <span class="tag">C++</span>
+        <span class="tag">C Programming</span>
+        <span class="tag">JavaScript</span>
+        <span class="tag">Python</span>
+        <span class="tag">Jango</span>
+        <span class="tag">Html|CSS</span>
+        <span class="tag">Excel</span>
+      </div>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <h3>Bachelor Of Computer Application</h3>
+          <p class="time">2025 - 2029</p>
+          <p class="place">PK Das Liberal College Of Arts And Science</p>
+        </div>
+        <div class="timeline-item">
+          <h3>Higher Secondary</h3>
+          <p class="time">2023 - 2025</p>
+          <p class="place">S.N Trust</p>
+          <p>Computer Science stream. 87% marks.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <h2>Experience</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <h3>python Django Internship</h3>
+          <p class="time">April 2026 - May 2026</p>
+          <p class="place">Acadeno Technologies Private Limited</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="projects">
+        <div class="card">
+          <a href="https://github.com/varadha-kv/website">Website</a>
+          <h3>Performence Management</h3>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: varadhakv0@gmail.com</p>
+      <p>GitHub: https://github.com/varadha-kv</p>
+      <p>LinkedIn: www.linkedin.com/in/varadha-k-v-2345483b5</p>
+    </section>
+
+    <footer>
+      © 2026 varadha. Built with HTML & CSS.
+    </footer>
+  </div>
 </body>
 </html>
